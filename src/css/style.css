@@ -1,0 +1,93 @@
+body{
+    background: url(../images/bg-repeat.jpg);
+    background-size: contain;
+    background-position: center center;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.info{
+    width: 300px;
+    height: 111px;
+    color: #fff;
+}
+
+.info .titulo{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.info .texto{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario{
+    background-color: #fff;
+    width: 340px;
+    height: 378px;
+    padding: 20px;
+}
+
+.formulario .dados{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .dados .input{
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.formulario .dados .input::placeholder{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.formulario .dados .mensagem{
+    height: 100px;
+}
+
+.formulario .dados .mensagem::placeholder{
+    position: absolute;
+    top: 10px;
+}
+
+.formulario .btn-enviar{
+    background-color: #3CCC87;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    width: 298px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.campo-vazio{
+    border: 1px solid red;
+}
+
+.campo-preenchido{
+    border: 1px solid #3CCC87;
+}
+
+.erro{
+    color: red;
+    font-size: 8px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
